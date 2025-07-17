@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CharacterStatus : MonoBehaviour
 {
-    public string name;
+    public string nameTag;
     public float healthMax;
     public float healthCurrent;
     public int attack;
