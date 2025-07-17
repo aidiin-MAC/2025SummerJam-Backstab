@@ -1,0 +1,70 @@
+<?xml version=”1.0″ encoding=”UTF-8″ standalone=”yes”?>
+<enemyData>
+	<entry id = "0">
+		<name>DUMMY</name>
+		<health>100</health>
+		<attack>10</attack>
+		<defense>10</defense>
+		<moveSet>
+			<action id = "0">
+				<name>SLASH</name>
+				<type>ATTACK</type>
+				<damage>3</damage>
+			</action>
+		</moveSet>
+	</entry>
+</enemyData>
+<allyData>
+	<entry id = "0">
+		<name>HERO</name>
+		<level>5</level>
+		<health>100</health>
+		<attack>10</attack>
+		<defense>10</defense>
+		<moveSet>
+			<action id = "0">
+				<name>VOID_SPELL</name>
+				<unlockLevel>0</unlockLevel>
+				<type>ATTACK</type>
+				<strength>5</strength>
+			</action>
+			<action id = "1">
+				<name>BLOCK</name>
+				<unlockLevel>0</unlockLevel>
+				<type>DEFEND</type>
+				<strength>2</strength>
+			</action>
+			<action id = "2">
+				<name>WEAKEN</name>
+				<unlockLevel>10</unlockLevel>
+				<type>DEBUFF</type>
+			</action>
+		</moveSet>
+	</entry>
+	<entry id = "1">
+		<name>HEALER</name>
+		<level>15</level>
+		<health>80</health>
+		<attack>5</attack>
+		<defense>15</defense>
+		<moveSet>
+			<action id = "0">
+				<name>BLOCK</name>
+				<unlockLevel>0</unlockLevel>
+				<type>DEFEND</type>
+				<strength>2</strength>
+			</action>
+			<action id = "1">
+				<name>BLESS</name>
+				<unlockLevel>0</unlockLevel>
+				<type>HEAL</type>
+				<strength>2</strength>
+			</action>
+			<action id = "2">
+				<name>STRENGTHEN</name>
+				<unlockLevel>20</unlockLevel>
+				<type>BUFF</type>
+			</action>
+		</moveSet>
+	</entry>
+</allyData>
