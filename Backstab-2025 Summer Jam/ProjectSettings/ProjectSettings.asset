@@ -596,8 +596,8 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Backstab-2025 Summer Jam
-  metroPackageVersion: 
+  metroPackageName: Backstab-2025SummerJam
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -605,7 +605,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Backstab-2025 Summer Jam
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Backstab-2025 Summer Jam
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -672,7 +672,7 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 1
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 9146b257-a058-4ab3-a937-bb8ea75281b8
   framebufferDepthMemorylessMode: 0

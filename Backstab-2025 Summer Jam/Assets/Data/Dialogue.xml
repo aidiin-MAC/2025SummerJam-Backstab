@@ -1,0 +1,58 @@
+<?xml version=”1.0″ encoding=”UTF-8″ standalone=”yes”?>
+<characterData>
+	<character id = "0">
+		<name>Narrator</name>
+		<sprite>Narrator.png</sprite>
+	</character>
+	<character id = "1">
+		<name>Hero</name>
+		<sprite>Hero.png</sprite>
+	</character>
+	<character id = "2">
+		<name>Lucia</name>
+		<sprite>Lucia.png</sprite>
+	</character>
+	<character id = "3">
+		<name>Lucas</name>
+		<sprite>Lucas.png</sprite>
+	</character>
+</characterData>
+<scenes>
+	<scene id = "1">
+		<backgroundImg>Plain.png</backgroundImg>
+		<backgroundMus>TEST.ogg</backgroundMus>
+		<dialogueScript>
+			<entry id = "0">
+				<type>line</type>
+				<character>0</character>
+				<text>This is test dialogue!</text>
+			</entry>
+			<entry id = "1">
+				<type>choice</type>
+				<character>1</character>
+				<options>
+					<option id = "0">This is test dialogue!</option>
+					<option id = "1">This is the better option</option>
+				</options>
+			</entry>
+			<entry id = "2">
+				<type>branch</type>
+				<paths>
+					<path id = "0">
+						<pathEntry id = "0">
+							<type>line</type>
+							<character>0</character>
+							<text>This is test dialogue!</text>
+						</pathEntry>
+					</path>
+					<path id = "1">
+						<pathEntry id = "0">
+							<type>line</type>
+							<character>2</character>
+							<text>You chose wisely.</text>
+						</pathEntry>
+					</path>
+				</paths>
+		</dialogueScript>
+	</scene>
+</scenes>
