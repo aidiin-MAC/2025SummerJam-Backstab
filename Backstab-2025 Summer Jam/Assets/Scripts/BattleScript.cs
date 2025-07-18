@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
+
 
 public class BattleScript : MonoBehaviour
 {
@@ -316,11 +318,20 @@ public class BattleScript : MonoBehaviour
 
     private void Lose()
     {
+        MoveToScene(4);
         Debug.Log("The battle has been lost");
     }
 
     private void Success()
     {
+        MoveToScene(3);
         Debug.Log("The battle has been won! Congratulations");
     }
+
+
+    public void MoveToScene(int sceneID)
+    {
+        SceneManager.LoadScene(sceneID);
+    }
+
 }

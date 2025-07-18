@@ -7,6 +7,7 @@ public class TextScroll : MonoBehaviour
 {
     public float introTextSpeed = 10;
 
+    public int sceneNumber;
 
     public void MoveToScene(int sceneID)
     {
@@ -28,7 +29,7 @@ public class TextScroll : MonoBehaviour
         }
         if (Input.GetKeyDown("escape"))
         {
-            MoveToScene(2);
+            MoveToScene(sceneNumber);
         }
     }
 

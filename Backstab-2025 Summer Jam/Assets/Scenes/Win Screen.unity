@@ -169,6 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 623c05ecbb355444e8894aa289655acc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneNumber: 5
 --- !u!212 &464220783
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -432,7 +433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   introTextSpeed: 200
-  sceneNumber: 2
+  sceneNumber: 5
 --- !u!1 &977936816
 GameObject:
   m_ObjectHideFlags: 0
@@ -1205,7 +1206,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2045518298
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1320,7 +1321,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Space: '
+  m_text: 'Space: >>'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 32fafc6a8b3114ecd89138503b7e4c09, type: 2}
   m_sharedMaterial: {fileID: 470574870619149368, guid: 32fafc6a8b3114ecd89138503b7e4c09, type: 2}

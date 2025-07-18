@@ -5,16 +5,14 @@ using UnityEngine.SceneManagement;
 public class EndOfIntroText : MonoBehaviour
 {
 
+    public int sceneNumber;
+
     public void MoveToScene(int sceneID)
     {
         SceneManager.LoadScene(sceneID);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+ 
 
 
 
@@ -24,7 +22,7 @@ public class EndOfIntroText : MonoBehaviour
         {
 
             Debug.Log("Touched end point");
-            MoveToScene(2);
+            MoveToScene(sceneNumber);
 
         }
     }
@@ -38,7 +36,7 @@ public class EndOfIntroText : MonoBehaviour
         if (gameObject.CompareTag("EndPoint"))
         {
             Debug.Log("Touched end point");
-            MoveToScene(2);
+            MoveToScene(sceneNumber);
         }
     }
 
