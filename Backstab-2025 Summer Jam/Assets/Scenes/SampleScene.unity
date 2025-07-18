@@ -686,7 +686,7 @@ MonoBehaviour:
   nameTag: Healer
   healthMax: 120
   healthCurrent: 0
-  attack: 30
+  attack: 8
   defense: 2
   alive: 0
   defending: 0

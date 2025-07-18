@@ -111,6 +111,22 @@ public class BattleScript : MonoBehaviour
                 }
                 break;
         }
+        if (Player.alive == false)
+        {
+            Lose();
+        }
+        if (Enemy.alive == false)
+        {
+            if (Monk.alive == true || Paladin.alive == true || Healer.alive == true)
+            {
+                Lose();
+            }
+            else
+            {
+                Success();
+            }
+        }
+
     }
     private void turnAdvance()
     {
@@ -298,8 +314,13 @@ public class BattleScript : MonoBehaviour
         animComplete = false;
     }
 
-    private void battleEnd()
+    private void Lose()
     {
-        Debug.Log("Player ran from the enemy");
+        Debug.Log("The battle has been lost");
+    }
+
+    private void Success()
+    {
+        Debug.Log("The battle has been won! Congratulations");
     }
 }
