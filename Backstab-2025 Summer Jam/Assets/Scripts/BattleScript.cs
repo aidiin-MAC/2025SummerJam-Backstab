@@ -68,10 +68,16 @@ public class BattleScript : MonoBehaviour
                             actionManager(Paladin);
                             break;
                         case 2:
+                            activeChar = "healer";
+                            action = 3;
+                            actionManager(Healer);
+                            break;
+                        case 3:
                             activeChar = "monk";
                             action = Random.Range(1, 4);
                             actionManager(Monk);
                             break;
+                        
                         default:
                             activeChar = "null";
                             turnPhase = 2;
