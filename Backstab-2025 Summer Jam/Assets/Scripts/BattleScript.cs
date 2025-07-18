@@ -249,6 +249,10 @@ public class BattleScript : MonoBehaviour
                         Target = Healer;
                     }
                 }
+                if (A.nameTag == "Hero" && Target.nameTag == "Titan")
+                {
+                    suspicion += 40;
+                }
                 Target.buffStatus = 1;
                 A.defending = false;
                 systemMessages.Add(A.nameTag + " strengthened " + Target.nameTag + "!");
@@ -256,9 +260,28 @@ public class BattleScript : MonoBehaviour
                 turnAdvance();
                 break;
             case 5: //debuff
+                if (turnPhase == 1 && suspicion > 65)
+                {
+                    randRoll = Random.Range(0, 100);
+                    if (randRoll > suspicion) { Target = Player; }
+                    else { Target = Enemy; }
+                }
                 if (Target.buffStatus > 0)
                 {
                     Target.buffStatus -= 1;
+                }
+                else if (turnPhase == 1) { Target = Enemy; }
+                if (A.nameTag == "Hero" && Target.nameTag == "Healer")
+                {
+                    suspicion += 25;
+                }
+                if (A.nameTag == "Hero" && Target.nameTag == "Paladin")
+                {
+                    suspicion += 30;
+                }
+                if (A.nameTag == "Hero" && Target.nameTag == "Monk")
+                {
+                    suspicion += 20;
                 }
                 A.defending = false;
                 systemMessages.Add(A.nameTag + " weakened " + Target.nameTag + "!");
