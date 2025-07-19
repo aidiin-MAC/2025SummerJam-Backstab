@@ -71,7 +71,7 @@ AnimatorState:
   m_PrefabAsset: {fileID: 0}
   m_Name: SuspicionMeter
   m_Speed: 0
-  m_CycleOffset: 0
+  m_CycleOffset: 0.86
   m_Transitions: []
   m_StateMachineBehaviours:
   - {fileID: -5110286118356138066}
