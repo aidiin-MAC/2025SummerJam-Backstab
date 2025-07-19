@@ -1,6 +1,6 @@
-using UnityEngine;
-using System.Collections.Generic;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
@@ -44,6 +44,7 @@ public class BattleScript : MonoBehaviour
         turnPhase = 0;
         action = 0;
         suspicion = 0;
+        systemMessages.Add("The Monster Emerges");
     }
 
     // Update is called once per frame
@@ -84,7 +85,7 @@ public class BattleScript : MonoBehaviour
                             action = Random.Range(1, 4);
                             actionManager(Monk);
                             break;
-                        
+
                         default:
                             activeChar = "null";
                             turnPhase = 2;
@@ -144,7 +145,7 @@ public class BattleScript : MonoBehaviour
             turnPhase = 1;
         }
     }
-    
+
     private void actionManager(CharacterStatus A)
     {
         float defModifier;
@@ -159,7 +160,7 @@ public class BattleScript : MonoBehaviour
                     if (randRoll > suspicion) { Target = Player; }
                     else { Target = Enemy; }
                 }
-                else if (turnPhase == 1){ Target = Enemy; }
+                else if (turnPhase == 1) { Target = Enemy; }
                 if (A.nameTag == "Hero" && Target.nameTag == "Healer")
                 {
                     suspicion += 25;
@@ -203,7 +204,7 @@ public class BattleScript : MonoBehaviour
                 Target.healthCurrent -= dmgDealt;
                 systemMessages.Add(A.nameTag + " attacks " + Target.nameTag + "!");
                 Debug.Log(A.nameTag + " attacks " + Target.nameTag + "!");
-                if(Target.healthCurrent <= 0)
+                if (Target.healthCurrent <= 0)
                 {
                     Target.alive = false;
                     systemMessages.Add(Target.nameTag + " has perished!");
@@ -243,7 +244,7 @@ public class BattleScript : MonoBehaviour
                 {
                     Target.healthCurrent = Target.healthMax;
                 }
-                if (turnPhase == 0 && Target.nameTag == "Titan")
+                if (turnPhase == 0 && Target.nameTag == "Monster")
                 {
                     suspicion += 5;
                 }
@@ -272,7 +273,7 @@ public class BattleScript : MonoBehaviour
                         Target = Healer;
                     }
                 }
-                if (A.nameTag == "Hero" && Target.nameTag == "Titan")
+                if (A.nameTag == "Hero" && Target.nameTag == "Monster")
                 {
                     suspicion += 40;
                 }

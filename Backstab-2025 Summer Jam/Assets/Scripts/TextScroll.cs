@@ -1,4 +1,3 @@
-using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -25,7 +24,7 @@ public class TextScroll : MonoBehaviour
         else if (Input.GetKeyUp("space"))
         {
             introTextSpeed -= 350;
-           // print("Key Released");
+            // print("Key Released");
         }
         if (Input.GetKeyDown("escape"))
         {
@@ -34,7 +33,7 @@ public class TextScroll : MonoBehaviour
     }
 
 
-    
+
 
 
 }

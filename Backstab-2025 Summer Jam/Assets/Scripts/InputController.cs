@@ -23,6 +23,10 @@ public class InputController : MonoBehaviour
             switch (inputState)
             {
                 case 0:
+                    if (gameStatus.systemMessages.Count < 1)
+                    {
+                        gameStatus.systemMessages.Add("Use WASD to choose an action");
+                    }
                     if (Input.GetKeyDown("w"))
                     {
                         pendingAction = 1;
@@ -45,6 +49,10 @@ public class InputController : MonoBehaviour
                     }
                     break;
                 case 1:
+                    if (gameStatus.systemMessages.Count < 1)
+                    {
+                        gameStatus.systemMessages.Add("Use A and D to select a target");
+                    }
                     if (Input.GetKeyDown("a"))
                     {
                         if (target > 0)
@@ -104,6 +112,13 @@ public class InputController : MonoBehaviour
                         gameStatus.animComplete = true;
                         inputState = 0;
                     }
+                    else
+                    {
+                        if (gameStatus.systemMessages.Count < 1)
+                        {
+                            gameStatus.systemMessages.Add("Confirm?");
+                        }
+                    }
                     if (Input.GetKeyDown("x"))
                     {
                         inputState--;
@@ -111,7 +126,7 @@ public class InputController : MonoBehaviour
                     break;
             }
         }
-        else if(gameStatus.animComplete == false)
+        else if (gameStatus.animComplete == false)
         {
             if (Input.anyKeyDown)
             {

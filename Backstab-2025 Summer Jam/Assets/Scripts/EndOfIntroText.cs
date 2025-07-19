@@ -1,5 +1,5 @@
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
@@ -17,7 +17,7 @@ public class EndOfIntroText : MonoBehaviour
         SceneManager.LoadScene(sceneID);
     }
 
- 
+
 
 
 
