@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 1922918d8b24b4d2e91b9da6e84e4f5f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 372061186800351551
+    second: SusMeterMarkings_0
+  - first:
+      213: 8007159838652191616
+    second: SusMeterMarkings_1
+  - first:
+      213: 5260836748297075904
+    second: SusMeterMarkings_2
+  - first:
+      213: -5452874348282559858
+    second: SusMeterMarkings_3
+  - first:
+      213: -1546438962886701312
+    second: SusMeterMarkings_4
+  - first:
+      213: 2845133853343683215
+    second: SusMeterMarkings_5
+  - first:
+      213: -1826681401736954189
+    second: SusMeterMarkings_6
+  - first:
+      213: 8731338075709634760
+    second: SusMeterMarkings_7
+  - first:
+      213: -5473870017841639111
+    second: SusMeterMarkings_8
+  - first:
+      213: 2656198617366731467
+    second: SusMeterMarkings_9
+  - first:
+      213: -1207439970752904812
+    second: SusMeterMarkings_10
+  - first:
+      213: -5473246323399878005
+    second: SusMeterMarkings_11
+  - first:
+      213: 7746187333287545027
+    second: SusMeterMarkings_12
+  - first:
+      213: -1920475070368117741
+    second: SusMeterMarkings_13
+  - first:
+      213: 6819687984886582066
+    second: SusMeterMarkings_14
+  - first:
+      213: 7840321322611512184
+    second: SusMeterMarkings_15
+  - first:
+      213: -8410019868904422782
+    second: SusMeterMarkings_16
+  - first:
+      213: -8927460162449090617
+    second: SusMeterMarkings_17
+  - first:
+      213: -8376273645895727522
+    second: SusMeterMarkings_18
+  - first:
+      213: -8947563608232498283
+    second: SusMeterMarkings_19
+  - first:
+      213: 5681587799993476259
+    second: SusMeterMarkings_20
+  - first:
+      213: 3653695564167806252
+    second: SusMeterMarkings_21
+  - first:
+      213: 2722387178331905698
+    second: SusMeterMarkings_22
+  - first:
+      213: -1801827297843753853
+    second: SusMeterMarkings_23
+  - first:
+      213: 6423815426954987834
+    second: SusMeterMarkings_24
+  - first:
+      213: -3928693204552900541
+    second: SusMeterMarkings_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SusMeterMarkings_0
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1234
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39f1f99da3d92500800000000000000
+      internalID: 372061186800351551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1200
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08353a213752f1f60800000000000000
+      internalID: 8007159838652191616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_2
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1147
+        width: 75
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc7193462f320940800000000000000
+      internalID: 5260836748297075904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1110
+        width: 40
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8247c9bbaf7354b0800000000000000
+      internalID: -5452874348282559858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_4
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 1194
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f8056e4f1f98ae0800000000000000
+      internalID: -1546438962886701312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_5
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 1052
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f821dfa5a22fb7720800000000000000
+      internalID: 2845133853343683215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_6
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1079
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bef7ab71f256a6e0800000000000000
+      internalID: -1826681401736954189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_7
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1057
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8f38028b1fb2970800000000000000
+      internalID: 8731338075709634760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_8
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1047
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93153e77838e804b0800000000000000
+      internalID: -5473870017841639111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 860
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca1701c196bcd420800000000000000
+      internalID: 2656198617366731467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_10
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 871
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4914aaf6ebf4e3fe0800000000000000
+      internalID: -1207439970752904812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_11
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 868
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a9985a77f1b04b0800000000000000
+      internalID: -5473246323399878005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_12
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 828
+        width: 104
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c80c3ca65cff7b60800000000000000
+      internalID: 7746187333287545027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_13
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 790
+        width: 29
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c07be391a1955e0800000000000000
+      internalID: -1920475070368117741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_14
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 773
+        width: 90
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b0a2a071664ae50800000000000000
+      internalID: 6819687984886582066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_15
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 746
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8731e2ff3ba6ecc60800000000000000
+      internalID: 7840321322611512184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_16
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 746
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28289f7cc7b994b80800000000000000
+      internalID: -8410019868904422782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_17
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 753
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c755ce284a4b1480800000000000000
+      internalID: -8927460162449090617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_18
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 543
+        width: 101
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e564bea9f7f71cb80800000000000000
+      internalID: -8376273645895727522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_19
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 513
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59be616fd4ed3d380800000000000000
+      internalID: -8947563608232498283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_20
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 508
+        width: 9
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4edc2700e09de40800000000000000
+      internalID: 5681587799993476259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_21
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 517
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d74abe1c884b230800000000000000
+      internalID: 3653695564167806252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_22
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 281
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae1d8107bcd7c520800000000000000
+      internalID: 2722387178331905698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_23
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 303
+        width: 121
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ccb6d7e9f9ef6e0800000000000000
+      internalID: -1801827297843753853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_24
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 287
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a398352981af52950800000000000000
+      internalID: 6423815426954987834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SusMeterMarkings_25
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 269
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3402227785a7a79c0800000000000000
+      internalID: -3928693204552900541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SusMeterMarkings_0: 372061186800351551
+      SusMeterMarkings_1: 8007159838652191616
+      SusMeterMarkings_10: -1207439970752904812
+      SusMeterMarkings_11: -5473246323399878005
+      SusMeterMarkings_12: 7746187333287545027
+      SusMeterMarkings_13: -1920475070368117741
+      SusMeterMarkings_14: 6819687984886582066
+      SusMeterMarkings_15: 7840321322611512184
+      SusMeterMarkings_16: -8410019868904422782
+      SusMeterMarkings_17: -8927460162449090617
+      SusMeterMarkings_18: -8376273645895727522
+      SusMeterMarkings_19: -8947563608232498283
+      SusMeterMarkings_2: 5260836748297075904
+      SusMeterMarkings_20: 5681587799993476259
+      SusMeterMarkings_21: 3653695564167806252
+      SusMeterMarkings_22: 2722387178331905698
+      SusMeterMarkings_23: -1801827297843753853
+      SusMeterMarkings_24: 6423815426954987834
+      SusMeterMarkings_25: -3928693204552900541
+      SusMeterMarkings_3: -5452874348282559858
+      SusMeterMarkings_4: -1546438962886701312
+      SusMeterMarkings_5: 2845133853343683215
+      SusMeterMarkings_6: -1826681401736954189
+      SusMeterMarkings_7: 8731338075709634760
+      SusMeterMarkings_8: -5473870017841639111
+      SusMeterMarkings_9: 2656198617366731467
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

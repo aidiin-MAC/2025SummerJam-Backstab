@@ -154,7 +154,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: -590}
+  m_AnchoredPosition: {x: -2, y: -700}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &464220781
@@ -169,6 +169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 623c05ecbb355444e8894aa289655acc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneNumber: 2
 --- !u!212 &464220783
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -411,6 +412,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1364939100}
+  - {fileID: 1907526833}
   - {fileID: 464220780}
   m_Father: {fileID: 977936820}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -431,7 +433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a53fa7690c1c74c7593e4d0558dc0f12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  introTextSpeed: 200
+  introTextSpeed: 100
   sceneNumber: 2
 --- !u!1 &977936816
 GameObject:
@@ -677,11 +679,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "New Text abckabak avkj ahv akhv av avkasv avkhav vhksvv askjv asjvsajsahvb
-    sakhvsahx shd vskahx haxas\nv asj sa\n\ncbjasc jah shj vshjcv shsa sjh asshasja
-    had\nc s sahj dha hsa hd hhhdahad hd dh dhdkv jdhda hadhadhd \n dhadh ajh jda
-    dajh dhadjha xhja had hhda xhxn xh sdahdh n\nshbc sjah sah xgn sdv shc hvsahasdhashjas
-    hsa hha ash ss\n anhshas  sjhadvhjc ahjd "
+  m_text: "In an age of great turmoil, people live in fear of Lord Bartholomew, who
+    has conquered most of the lands and sent the world into terror.\n\nThree brave
+    heroes have been on a quest to defeat Bartholomew, and have been successful in
+    destroying his outposts and restoring peace.\n\nAs the heroes draw near, Bartholomew
+    grows afraid. In desperation, he hires an assassin to take the group out before
+    they can get near him.\n\nThis assassin was successful in gaining the trust and
+    infiltrating the party, leading them to a powerful monster that could hopefully
+    wipe them out\u2026\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 32fafc6a8b3114ecd89138503b7e4c09, type: 2}
   m_sharedMaterial: {fileID: 470574870619149368, guid: 32fafc6a8b3114ecd89138503b7e4c09, type: 2}
@@ -746,7 +751,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -262.2877, y: 0, z: -162.11363, w: -830.2335}
+  m_margin: {x: -262.2877, y: 0, z: -249.05443, w: -830.2335}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1188,6 +1193,149 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679260418}
   m_CullTransparentMesh: 1
+--- !u!1 &1907526832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1907526833}
+  - component: {fileID: 1907526835}
+  - component: {fileID: 1907526834}
+  m_Layer: 5
+  m_Name: Text (TMP) (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1907526833
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907526832}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 693236196}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 120}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1907526834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907526832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "In an age of great turmoil, people live in fear of Lord Bartholomew, who
+    has conquered most of the lands and sent the world into terror.\n\nThree brave
+    heroes have been on a quest to defeat Bartholomew, and have been successful in
+    destroying his outposts and restoring peace.\n\nAs the heroes draw near, Bartholomew
+    grows afraid. In desperation, he hires an assassin to take the group out before
+    they can get near him.\n\nThis assassin was successful in gaining the trust and
+    infiltrating the party, leading them to a powerful monster that could hopefully
+    wipe them out\u2026\n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 32fafc6a8b3114ecd89138503b7e4c09, type: 2}
+  m_sharedMaterial: {fileID: 470574870619149368, guid: 32fafc6a8b3114ecd89138503b7e4c09, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4043309056
+  m_fontColor: {r: 0, g: 0, b: 0, a: 0.94509804}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 32
+  m_fontSizeBase: 32
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -262.2877, y: 0, z: -249.05443, w: -830.2335}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1907526835
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907526832}
+  m_CullTransparentMesh: 1
 --- !u!1 &2045518297
 GameObject:
   m_ObjectHideFlags: 0
@@ -1320,7 +1468,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Space: '
+  m_text: 'Space: >>'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 32fafc6a8b3114ecd89138503b7e4c09, type: 2}
   m_sharedMaterial: {fileID: 470574870619149368, guid: 32fafc6a8b3114ecd89138503b7e4c09, type: 2}
