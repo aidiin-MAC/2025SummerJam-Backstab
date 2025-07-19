@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Collections;
 using UnityEngine.SceneManagement;
 
 
@@ -21,6 +22,10 @@ public class BattleScript : MonoBehaviour
     public CharacterStatus Paladin;
     public CharacterStatus Monk;
     public CharacterStatus Target;
+
+    public Animator transition;
+    public float transitionTime = 1;
+    //public int sceneNumber;
 
     public List<string> systemMessages = new List<string>();
 
@@ -318,14 +323,29 @@ public class BattleScript : MonoBehaviour
 
     private void Lose()
     {
-        MoveToScene(4);
         Debug.Log("The battle has been lost");
+        //MoveToScene(4);
+        StartCoroutine(LoadLevel(4));
+
     }
 
     private void Success()
     {
-        MoveToScene(3);
         Debug.Log("The battle has been won! Congratulations");
+        //MoveToScene(3);
+        StartCoroutine(LoadLevel(3));
+
+    }
+
+
+    IEnumerator LoadLevel(int sceneNumber)
+    {
+        transition.SetTrigger("Start");
+
+        yield return new WaitForSeconds(transitionTime);
+
+        SceneManager.LoadScene(sceneNumber);
+
     }
 
 
